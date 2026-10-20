@@ -1,2 +1,3 @@
 # exercitiu-git
-Exercitii de git pentru Tehnici de programare
+Exercitii de git pentru Tehnici de programare <br>
+Aici exersez commit
