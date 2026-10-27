@@ -24,6 +24,9 @@ def pe_servicii(tinte):
     grupe = {}
     for t in tinte:
         serviciu = t["serviciu"]
+        if serviciu is None:
+            print("sar peste", t["gazda"], ": serviciu invalid", t["serviciu"])
+            continue
         port = port_valid(t["port"])
         if port is None:
             print("sar peste", t["gazda"], ": port invalid", t["port"])
